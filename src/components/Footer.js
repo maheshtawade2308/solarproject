@@ -53,19 +53,20 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
-            <h5 className="text-white mb-4">Newsletter</h5>
+            {/* <h5 className="text-white mb-4">Newsletter</h5>
             <p>Lorem lipsum 24</p>
             <div className="position-relative mx-auto" style={{ maxWidth: '400px' }}>
               <input className="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
               <button type="button"
                 className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+            </div> */}
+            <div className="copyright text-center">
+              <p className="copyright-text"> &copy; 2023 <br/>Archanadip Solar Hub & Meditech Hub Pvt Ltd.<br/> All Rights Reserved.</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="copyright">
-        <p className="copyright-text">Copyright &copy; your Website 2023</p>
-      </div>
+      
     </footer>
   );
 }

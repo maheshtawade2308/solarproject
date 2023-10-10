@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from './assets/logo.png';
 
 export default function Navbar() {
   return (
@@ -33,8 +34,18 @@ export default function Navbar() {
         </div>
     </div> */}
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        
+        {/* <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <h2 className="m-0 text-primary">Solartec</h2>
+        </a> */}
+        <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <img
+            src={logo}
+            width="120"
+            height="120"
+            className='mt-4'
+            alt="ARCHANADIP"
+          />
         </a>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
@@ -57,8 +68,8 @@ export default function Navbar() {
                 </div>  */}
                 <a href="contact.html" className="nav-item nav-link">Contact</a>
             </div>
-            <a href="/" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
-                    className="fa fa-arrow-right ms-3"></i></a>
+            {/* <a href="/" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
+                    className="fa fa-arrow-right ms-3"></i></a> */}
         </div>
     </nav>
     </div>
