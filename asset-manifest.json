@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/solarproject/static/css/main.e6c13ad2.css",
+    "main.js": "/solarproject/static/js/main.d1d168db.js",
+    "static/js/787.5d638c78.chunk.js": "/solarproject/static/js/787.5d638c78.chunk.js",
+    "static/media/logo.png": "/solarproject/static/media/logo.1f9627995b440cffb22d.png",
+    "static/media/logo.svg": "/solarproject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/solarproject/index.html",
+    "main.e6c13ad2.css.map": "/solarproject/static/css/main.e6c13ad2.css.map",
+    "main.d1d168db.js.map": "/solarproject/static/js/main.d1d168db.js.map",
+    "787.5d638c78.chunk.js.map": "/solarproject/static/js/787.5d638c78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d1d168db.js"
+  ]
+}
