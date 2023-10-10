@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header() {
   return (
-    <header className="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div className="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
       <div className="owl-carousel header-carousel position-relative">
         <div className="owl-carousel-item position-relative" data-dot="<img src='img/carousel-1.jpg'>">
           <img className="img-fluid" src="img/carousel-1.jpg" alt=""/>
@@ -49,6 +49,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 }

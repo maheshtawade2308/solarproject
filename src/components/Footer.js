@@ -28,7 +28,7 @@ export default function Footer() {
   <button className="btn btn-link">Our Services</button>
   <button className="btn btn-link">Terms & Condition</button>
   <button className="btn btn-link">Support</button>
-</div>
+ </div>
           <div className="col-lg-3 col-md-6">
             <h5 className="text-white mb-4">Project Gallery</h5>
             <div className="row g-2">
