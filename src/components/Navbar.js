@@ -68,8 +68,8 @@ export default function Navbar() {
                 </div>  */}
                 <a href="contact.html" className="nav-item nav-link">Contact</a>
             </div>
-            {/* <a href="/" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quote<i
-                    className="fa fa-arrow-right ms-3"></i></a> */}
+            <a href="https://www.adanisolar.com/Solar-Calculator" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Solar Calculator<i
+                    className="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     </div>
