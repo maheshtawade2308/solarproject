@@ -61,7 +61,7 @@ export default function Footer() {
                 className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
             </div> */}
             <div className="copyright text-center">
-              <p className="copyright-text"> &copy; 2023 <br/>Archanadip Solar Hub & Meditech Hub Pvt Ltd.<br/> All Rights Reserved.</p>
+              <p className="copyright-text"> &copy; 2023 <br/>Archanadip <br/> Solar Hub & Meditech Hub Pvt Ltd.<br/> All Rights Reserved.</p>
             </div>
           </div>
         </div>
