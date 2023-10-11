@@ -22,7 +22,7 @@ export default function About() {
           <div className="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
             <div className="p-lg-5 pe-lg-0">
               <h6 className="text-primary">About Us</h6>
-              <h1 className="mb-4">25+ Years of Leading the Solar Revolution</h1>
+              <h1 className="mb-4">We are Leading the Solar Revolution</h1>
               <p>
                 At Archanadip solar Energy, we are dedicated to advancing the adoption of renewable energy, with a
                 particular focus on solar power. With over two decades of experience, we have played a pivotal role in
@@ -39,15 +39,15 @@ export default function About() {
                 reduce carbon footprints and promote energy independence.
               </p>
               <p>
-                <i className="fa fa-check-circle text-primary me-3"></i>Diam dolor diam ipsum
+                <i className="fa fa-check-circle text-primary me-3"></i>some content
               </p>
               <p>
-                <i className="fa fa-check-circle text-primary me-3"></i>Aliqu diam amet diam et eos
+                <i className="fa fa-check-circle text-primary me-3"></i>some content
               </p>
               <p>
-                <i className="fa fa-check-circle text-primary me-3"></i>Tempor erat elitr rebum at clita
+                <i className="fa fa-check-circle text-primary me-3"></i>some content
               </p>
-              <a href="https://example.com" className="btn btn-primary rounded-pill py-3 px-5 mt-3">
+              <a href="" className="btn btn-primary rounded-pill py-3 px-5 mt-3">
                 Explore More
               </a>
             </div>
