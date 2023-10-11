@@ -1,8 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 export default function About() {
-  return (
+  return (  
+    <div>
+      <Navbar/>
     <div className="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+      
       <div className="container about px-lg-0">
         <div className="row g-0 mx-lg-0">
           <div className="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style={{ minHeight: '400px' }}>
@@ -50,6 +54,7 @@ export default function About() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

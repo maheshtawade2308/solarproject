@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './assets/logo.png';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -33,27 +34,26 @@ export default function Navbar() {
             </div>
         </div>
     </div> */}
-    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 shadow-sm rounded">
         
         {/* <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <h2 className="m-0 text-primary">Solartec</h2>
         </a> */}
-        <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <Link to="/" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
         <img
             src={logo}
-            width="120"
-            height="120"
-            className='mt-4'
+            height="70"
+            className='mt-2'
             alt="ARCHANADIP"
           />
-        </a>
+        </Link>
         <button type="button" className="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" className="nav-item nav-link active">Home</a>
-                <a href="about.html" className="nav-item nav-link">About</a>
+                <Link to="/" className="nav-item nav-link active">Home</Link>
+                <Link to="/about" className="nav-item nav-link">About</Link>
                 <a href="service.html" className="nav-item nav-link">Service</a>
                 <a href="project.html" className="nav-item nav-link">Project</a>
                {/* <div className="nav-item dropdown">
