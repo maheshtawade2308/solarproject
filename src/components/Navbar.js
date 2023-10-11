@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* <a href="index.html" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
             <h2 className="m-0 text-primary">Solartec</h2>
         </a> */}
-        <Link to="/" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+        <Link to="/solarproject" className="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
         <img
             src={logo}
             height="70"
