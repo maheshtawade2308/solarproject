@@ -5,6 +5,7 @@ import About from './components/About';
 import Service from './components/Service';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Feature from './components/Feature';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/project' element={<Project/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        {/* <Route path='/feature' element={<Feature/>}/> */}
     </Routes>
    </Router>
   );

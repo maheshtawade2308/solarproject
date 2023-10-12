@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer';
+import Feature from './Feature';
 
 const Service = () => {
   return (
@@ -93,6 +94,7 @@ const Service = () => {
             </div> */}
         </div>
     </div>
+    <Feature/>
 </div>
 <Footer/>
 </div>

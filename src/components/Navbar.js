@@ -57,6 +57,7 @@ export default function Navbar() {
                 <Link to="/service" className="nav-item nav-link">Service</Link>
                 <Link to="/project" className="nav-item nav-link">Project</Link> 
                 <Link to="/contact" className="nav-item nav-link">Contact</Link> 
+                {/* <Link to="/feature" className="nav-item nav-link">Features</Link>  */}
 
                {/* <div className="nav-item dropdown">
                     <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
