@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer className="container-fluid bg-dark text-body footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <footer className="container-fluid bg-dark text-body footer  pt-5 wow fadeIn" data-wow-delay="0.1s">
       <div className="container py-5">
         <div className="row g-5">
           <div className="col-lg-3 col-md-6">
@@ -12,7 +13,7 @@ export default function Footer() {
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>archanadip@gmail.com</p>
             <div className="d-flex pt-2">
               <a className="btn btn-square btn-outline-light btn-social" href="https://twitter.com"><i
-                className="fab fa-twitter"></i></a>
+                className="fab fa-whatsapp"></i></a>
               <a className="btn btn-square btn-outline-light btn-social" href="https://facebook.com"><i
                 className="fab fa-facebook-f"></i></a>
               <a className="btn btn-square btn-outline-light btn-social" href="https://youtube.com"><i
@@ -23,11 +24,11 @@ export default function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
   <h5 className="text-white mb-4">Quick Links</h5>
-  <button className="btn btn-link">About Us</button>
-  <button className="btn btn-link">Contact Us</button>
-  <button className="btn btn-link">Our Services</button>
-  <button className="btn btn-link">Terms & Condition</button>
-  <button className="btn btn-link">Support</button>
+  <button className="btn btn-link"><Link to="/about">About Us</Link></button>
+  <button className="btn btn-link"><Link to="/contact">Contact Us</Link></button>
+  <button className="btn btn-link"><Link to="/service">Our Services</Link></button>
+  <button className="btn btn-link"><Link to="/contact">Terms & Condition</Link></button>
+  {/* <button className="btn btn-link"><Link to="/contact">Support</Link></button> */}
  </div>
           <div className="col-lg-3 col-md-6">
             <h5 className="text-white mb-4">Project Gallery</h5>
@@ -60,7 +61,7 @@ export default function Footer() {
               <button type="button"
                 className="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
             </div> */}
-            <div className="copyright text-center">
+            <div className="copyright mt-5 text-center">
               <p className="copyright-text"> &copy; 2023 <br/>Archanadip <br/> Solar Hub & Meditech Hub Pvt Ltd.<br/> All Rights Reserved.</p>
             </div>
           </div>

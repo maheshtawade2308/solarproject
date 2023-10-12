@@ -71,8 +71,8 @@ export default function Navbar() {
                 </div>  */}
              
             </div>
-            <a href="https://www.adanisolar.com/Solar-Calculator" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Solar Calculator<i
-                    className="fa fa-arrow-right ms-3"></i></a>
+            {/* <a href="https://www.adanisolar.com/Solar-Calculator" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Solar Calculator<i
+                    className="fa fa-arrow-right ms-3"></i></a> */}
         </div>
     </nav>
     </div>

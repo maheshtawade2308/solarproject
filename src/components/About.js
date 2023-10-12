@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       <Navbar />
-      <div className="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+      <div className="container-fluid bg-light overflow-hidden  px-lg-0">
         <div className="container about px-lg-0">
           <div className="row g-0 mx-lg-0">
             <div
