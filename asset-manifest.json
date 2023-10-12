@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/solarproject/static/css/main.e6c13ad2.css",
-    "main.js": "/solarproject/static/js/main.c212fafa.js",
+    "main.js": "/solarproject/static/js/main.f440fb62.js",
     "static/js/787.5d638c78.chunk.js": "/solarproject/static/js/787.5d638c78.chunk.js",
-    "static/media/archanadip.jpg": "/solarproject/static/media/archanadip.fa7593245a49eb1ec9b0.jpg",
-    "static/media/carousel-2.jpg": "/solarproject/static/media/carousel-2.b14d2e57ccd358a9733a.jpg",
+    "static/media/archanadip2.jpg": "/solarproject/static/media/archanadip2.38f09fd708f12fdb8955.jpg",
+    "static/media/archanadip1.jpg": "/solarproject/static/media/archanadip1.c11c0cb38de04f96d3ba.jpg",
     "static/media/logo.png": "/solarproject/static/media/logo.6b9b116704e71aaf2081.png",
     "index.html": "/solarproject/index.html",
     "main.e6c13ad2.css.map": "/solarproject/static/css/main.e6c13ad2.css.map",
-    "main.c212fafa.js.map": "/solarproject/static/js/main.c212fafa.js.map",
+    "main.f440fb62.js.map": "/solarproject/static/js/main.f440fb62.js.map",
     "787.5d638c78.chunk.js.map": "/solarproject/static/js/787.5d638c78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.c212fafa.js"
+    "static/js/main.f440fb62.js"
   ]
 }
