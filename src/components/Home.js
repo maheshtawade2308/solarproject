@@ -4,13 +4,13 @@ import Footer from "./Footer";
 
 import Body from "./Body";
 import Header from "./Header";
+import ImageCarousel from "./ImageCarousel";
 
 const Home = () =>{
     return(
         <div>
             <Navbar/>
-            <Body/>
-            {/* <Header/> */}
+            <ImageCarousel/>
             <Footer/>
         </div>
     );
