@@ -1,7 +1,11 @@
 import React from "react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const Project = () => {
   return (
+    <div>
+     <Navbar/>
     <div className="container-xxl py-5">
       <div className="container">
         <div
@@ -194,6 +198,8 @@ const Project = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer/>
     </div>
   );
 };
