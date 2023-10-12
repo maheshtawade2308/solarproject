@@ -1,6 +1,6 @@
 import React from 'react';
-import FrontImage from "./assets/archanadip.jpg";
-import Image2 from "./assets/carousel-2.jpg";
+import FrontImage from "./assets/archanadip1.jpg";
+import Image2 from "./assets/archanadip2.jpg";
 export default function Body() {
   return (
     <div className="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">

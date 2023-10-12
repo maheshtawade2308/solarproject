@@ -115,7 +115,7 @@
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
-        margin-right: 0;
+        margin-left: 75%;
         padding: 10px 0;
     }
 
