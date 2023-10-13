@@ -9,8 +9,8 @@ export default function Footer() {
           <div className="col-lg-3 col-md-6">
             <h5 className="text-white mb-4">Address</h5>
             <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>1005, Archandip pvt ltd, Business Center, Govind Nagar, Nashik </p>
-            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+919657089541 </p>
-            <p className="mb-2"><i className="fa fa-envelope me-3"></i>archanadip@gmail.com</p>
+            <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+917030000513</p>
+            <p className="mb-2"><i className="fa fa-envelope me-3"></i>archanadip2023@gmail.com</p>
             <div className="d-flex pt-2">
               <a className="btn btn-square btn-outline-light btn-social" href="https://twitter.com"><i
                 className="fab fa-whatsapp"></i></a>
