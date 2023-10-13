@@ -15,7 +15,7 @@ const ImageCarousel = () => {
   };
   
   return (
-    <Carousel {...carouselSettings}>
+    <Carousel {...carouselSettings} >
       <div>
         <img src={Image1} alt="Image 1" />
       </div>
