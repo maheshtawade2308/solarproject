@@ -41,9 +41,9 @@ const Project = () => {
           data-wow-delay="0.5s"
         >
           <div className="col-lg-4 col-md-6 portfolio-item first">
-            <div className="portfolio-img rounded overflow-hidden">
+            <div className=" rounded overflow-hidden">
               <img className="img-fluid" src="img/img-600x400-6.jpg" alt="" />
-              <div className="portfolio-btn">
+              {/* <div className="portfolio-btn">
                 <button
                   className="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                   onClick={() => window.open("img/img-600x400-6.jpg")}
@@ -56,7 +56,7 @@ const Project = () => {
                 >
                   <i className="fa fa-link"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="pt-3">
               <p className="text-primary mb-0">Solar Panels</p>
@@ -67,9 +67,9 @@ const Project = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 portfolio-item second">
-            <div className="portfolio-img rounded overflow-hidden">
+            <div className=" rounded overflow-hidden">
               <img className="img-fluid" src="img/img-600x400-5.jpg" alt="" />
-              <div className="portfolio-btn">
+              {/* <div className="portfolio-btn">
                 <button
                   className="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                   onClick={() => window.open("img/img-600x400-5.jpg")}
@@ -82,7 +82,7 @@ const Project = () => {
                 >
                   <i className="fa fa-link"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="pt-3">
               <p className="text-primary mb-0">Solar Panels</p>
@@ -93,9 +93,9 @@ const Project = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 portfolio-item third">
-            <div className="portfolio-img rounded overflow-hidden">
+            <div className=" rounded overflow-hidden">
               <img className="img-fluid" src="img/img-600x400-4.jpg" alt="" />
-              <div className="portfolio-btn">
+              {/* <div className="portfolio-btn">
                 <button
                   className="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                   onClick={() => window.open("img/img-600x400-4.jpg")}
@@ -108,7 +108,7 @@ const Project = () => {
                 >
                   <i className="fa fa-link"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="pt-3">
               <p className="text-primary mb-0">Solar Panels</p>
@@ -119,9 +119,9 @@ const Project = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 portfolio-item first">
-            <div className="portfolio-img rounded overflow-hidden">
+            <div className=" rounded overflow-hidden">
               <img className="img-fluid" src="img/img-600x400-3.jpg" alt="" />
-              <div className="portfolio-btn">
+              {/* <div className="portfolio-btn">
                 <button
                   className="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                   onClick={() => window.open("img/img-600x400-3.jpg")}
@@ -134,7 +134,7 @@ const Project = () => {
                 >
                   <i className="fa fa-link"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="pt-3">
               <p className="text-primary mb-0">Solar Panels</p>
@@ -171,9 +171,9 @@ const Project = () => {
             </div>
           </div> */}
           <div className="col-lg-4 col-md-6 portfolio-item third">
-            <div className="portfolio-img rounded overflow-hidden">
+            <div className=" rounded overflow-hidden">
               <img className="img-fluid" src="img/img-600x400-1.jpg" alt="" />
-              <div className="portfolio-btn">
+              {/* <div className="portfolio-btn">
                 <button
                   className="btn btn-lg-square btn-outline-light rounded-circle mx-1"
                   onClick={() => window.open("img/img-600x400-1.jpg")}
@@ -186,7 +186,7 @@ const Project = () => {
                 >
                   <i className="fa fa-link"></i>
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="pt-3">
               <p className="text-primary mb-0">Solar Panels</p>

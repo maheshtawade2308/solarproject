@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer';
 import Feature from './Feature';
+import product1 from './assets/archana_products.jpg';
 
 const Service = () => {
   return (
@@ -66,20 +67,21 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div className="service-item rounded overflow-hidden">
-                    <img className="img-fluid" src="img/img-600x400-5.jpg" alt=""/>
+                    {/* <img className="img-fluid" src="img/img-600x400-5.jpg" alt=""/> */}
+                    <img  className="img-fluid"  src={product1}    alt="" style={{width:"100%"}} />
                     <div className="position-relative p-4 pt-0">
                         <div className="service-icon">
-                            <i className="fa fa-wind fa-3x"></i>
+                            <i className="fa fa-solar-panel fa-3x"></i>
                         </div>
-                        <h4 className="mb-3">Wind Turbines</h4>
+                        <h4 className="mb-3">Solar Panel</h4>
                         <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
                         <button className="small fw-medium">Read More<i className="fa fa-arrow-right ms-2"></i></button>
                     </div>
                 </div>
             </div>
-            <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            {/* <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div className="service-item rounded overflow-hidden">
                     <img className="img-fluid" src="img/img-600x400-6.jpg" alt=""/>
                     <div className="position-relative p-4 pt-0">
