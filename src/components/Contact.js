@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 const Contact = () => {
@@ -64,6 +65,7 @@ const Contact = () => {
         </div>
     </div>
 </div>
+<Footer/>
 </div>
   )
 }

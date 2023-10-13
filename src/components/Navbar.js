@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from './assets/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -52,11 +52,11 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-                <Link to="/solarproject" className="nav-item nav-link">Home</Link>
-                <Link to="/about" className="nav-item nav-link">About</Link>
-                <Link to="/service" className="nav-item nav-link">Service</Link>
-                <Link to="/project" className="nav-item nav-link">Project</Link> 
-                <Link to="/contact" className="nav-item nav-link">Contact</Link> 
+            <NavLink to="/solarproject" className="nav-item nav-link" activeClassName="active-link">Home</NavLink>
+            <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
+            <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Service</NavLink>
+            <NavLink to="/project" className="nav-item nav-link" activeClassName="active-link">Project</NavLink>
+            <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact</NavLink>
                 {/* <Link to="/feature" className="nav-item nav-link">Features</Link>  */}
 
                {/* <div className="nav-item dropdown">
