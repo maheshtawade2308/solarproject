@@ -12,7 +12,8 @@ export default function Footer() {
             <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+917030000513</p>
             <p className="mb-2"><i className="fa fa-envelope me-3"></i>archanadip2023@gmail.com</p>
             <div className="d-flex pt-2">
-              <a className="btn btn-square btn-outline-light btn-social" href=""><i
+              <a className="btn btn-square btn-outline-light btn-social" target="_blank" href={`https://wa.me/9657089541/?text=${encodeURIComponent('Hello, I have a question.')}`}
+><i
                 className="fab fa-whatsapp"></i></a>
               <a className="btn btn-square btn-outline-light btn-social" href="https://facebook.com"><i
                 className="fab fa-facebook-f"></i></a>
