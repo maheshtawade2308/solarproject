@@ -56,7 +56,8 @@ export default function Navbar() {
             <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
             <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Service</NavLink>
             <NavLink to="/project" className="nav-item nav-link" activeClassName="active-link">Project</NavLink>
-            <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact</NavLink>
+            <NavLink to="/career" className="nav-item nav-link" activeClassName="active-link">Career</NavLink>
+            <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact US</NavLink>
                 {/* <Link to="/feature" className="nav-item nav-link">Features</Link>  */}
 
                {/* <div className="nav-item dropdown">
