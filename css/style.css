@@ -98,6 +98,9 @@
     text-transform: uppercase;
     outline: none;
 }
+.active-link {
+    color: var(--secondary);
+}
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -115,7 +118,7 @@
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
-        margin-left: 75%;
+        margin-right: 0;
         padding: 10px 0;
     }
 
@@ -156,12 +159,13 @@
     background: rgba(0, 0, 0, .1);
 }
 
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
         min-height: 500px;
     }
-
+  
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -273,6 +277,10 @@
 
 
 /*** Feature ***/
+.heptagon{
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+
+}
 @media (min-width: 992px) {
     .container.feature {
         max-width: 100% !important;

@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/solarproject/static/css/main.e6c13ad2.css",
-    "main.js": "/solarproject/static/js/main.832bb7c1.js",
+    "main.css": "/solarproject/static/css/main.8d54c2d8.css",
+    "main.js": "/solarproject/static/js/main.7b35ea35.js",
     "static/js/787.5d638c78.chunk.js": "/solarproject/static/js/787.5d638c78.chunk.js",
-    "static/media/archanadip2.jpg": "/solarproject/static/media/archanadip2.38f09fd708f12fdb8955.jpg",
-    "static/media/archanadip1.jpg": "/solarproject/static/media/archanadip1.e1325ba76e1e5db0b530.jpg",
+    "static/media/archanadip2.jpg": "/solarproject/static/media/archanadip2.1856413c17af390332cf.jpg",
+    "static/media/archanadip1.jpg": "/solarproject/static/media/archanadip1.fc975b3411ab1da2a02b.jpg",
+    "static/media/archana_products.jpg": "/solarproject/static/media/archana_products.32d3adc9e99708bb3cc0.jpg",
+    "static/media/whatsapp-icon.png": "/solarproject/static/media/whatsapp-icon.d7ad6a99d6edd9de6744.png",
     "static/media/logo.png": "/solarproject/static/media/logo.6b9b116704e71aaf2081.png",
     "index.html": "/solarproject/index.html",
-    "main.e6c13ad2.css.map": "/solarproject/static/css/main.e6c13ad2.css.map",
-    "main.832bb7c1.js.map": "/solarproject/static/js/main.832bb7c1.js.map",
+    "main.8d54c2d8.css.map": "/solarproject/static/css/main.8d54c2d8.css.map",
+    "main.7b35ea35.js.map": "/solarproject/static/js/main.7b35ea35.js.map",
     "787.5d638c78.chunk.js.map": "/solarproject/static/js/787.5d638c78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.832bb7c1.js"
+    "static/css/main.8d54c2d8.css",
+    "static/js/main.7b35ea35.js"
   ]
 }
