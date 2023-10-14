@@ -8,7 +8,7 @@ const Feature = () => {
         <div className="row g-5 text-center">
             <div className="col-md-6 col-lg-4 wow  fadeIn" data-wow-delay="0.1s">
                 <div className="d-flex align-items-center justify-content-center mb-4">
-                    <div className="btn-lg-square bg-primary rounded-circle me-3">
+                    <div className="btn-lg-square bg-primary heptagon me-3">
                         <i className="fa fa-users text-white"></i>
                     </div>
                     <CountUp end={50} duration={2} separator="," decimals={0}>
@@ -22,7 +22,7 @@ const Feature = () => {
             </div>
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
                 <div className="d-flex align-items-center justify-content-center mb-4">
-                    <div className="btn-lg-square bg-primary rounded-circle me-3">
+                    <div className="btn-lg-square bg-primary heptagon me-3">
                         <i className="fa fa-check text-white"></i>
                     </div>
                     <CountUp end={1} duration={3} separator="," decimals={0}>
@@ -37,7 +37,7 @@ const Feature = () => {
             </div>
             <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
                 <div className="d-flex align-items-center justify-content-center mb-4">
-                    <div className="btn-lg-square bg-primary rounded-circle me-3">
+                    <div className="btn-lg-square bg-primary heptagon me-3">
                         <i className="fa fa-award text-white"></i>
                     </div>
 
