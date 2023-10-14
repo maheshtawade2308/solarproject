@@ -5,9 +5,9 @@ const Feature = () => {
   return (
     <div className="container-xxl py-5">
     <div className="container">
-        <div className="row g-5">
-            <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                <div className="d-flex align-items-center mb-4">
+        <div className="row g-5 text-center">
+            <div className="col-md-6 col-lg-4 wow  fadeIn" data-wow-delay="0.1s">
+                <div className="d-flex align-items-center justify-content-center mb-4">
                     <div className="btn-lg-square bg-primary rounded-circle me-3">
                         <i className="fa fa-users text-white"></i>
                     </div>
@@ -20,8 +20,8 @@ const Feature = () => {
                 <h5 className="mb-3">Projects Installed</h5>
                 {/* <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span> */}
             </div>
-            <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                <div className="d-flex align-items-center mb-4">
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                <div className="d-flex align-items-center justify-content-center mb-4">
                     <div className="btn-lg-square bg-primary rounded-circle me-3">
                         <i className="fa fa-check text-white"></i>
                     </div>
@@ -35,8 +35,8 @@ const Feature = () => {
                 <h5 className="mb-3">MWp Installed</h5>
                 {/* <span>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit</span> */}
             </div>
-            <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                <div className="d-flex align-items-center mb-4">
+            <div className="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                <div className="d-flex align-items-center justify-content-center mb-4">
                     <div className="btn-lg-square bg-primary rounded-circle me-3">
                         <i className="fa fa-award text-white"></i>
                     </div>

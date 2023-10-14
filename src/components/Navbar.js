@@ -54,7 +54,7 @@ export default function Navbar() {
             <div className="navbar-nav ms-auto p-4 p-lg-0">
             <NavLink to="/solarproject" className="nav-item nav-link" activeClassName="active-link">Home</NavLink>
             <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
-            <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Service</NavLink>
+            <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Services</NavLink>
             <NavLink to="/project" className="nav-item nav-link" activeClassName="active-link">Project</NavLink>
             <NavLink to="/career" className="nav-item nav-link" activeClassName="active-link">Career</NavLink>
             <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact US</NavLink>
