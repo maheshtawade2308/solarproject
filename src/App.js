@@ -7,11 +7,13 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 
 import Career from './components/Career';
+import Meditech from './components/meditech/Meditech';
 
 function App() {
   return (
    <Router> 
     <Routes>
+        <Route path='/meditech' element={<Meditech/>}/>
         <Route path='/solarproject' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/service' element={<Service/>}/>
