@@ -198,6 +198,7 @@ const Meditech = () => {
                                 </div>
                             </div>
                         </div>
+                        
     </div>
 </div>
 {/* <Feature/> */}
