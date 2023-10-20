@@ -46,11 +46,11 @@ const Meditech = () => {
             </div>
         </div>
         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div className="service-item rounded overflow-hidden">
+            <div className="service-item rounded overflow-hidden" style={{ height: '100%', position: 'relative' }}>
                 {/* <img className="img-fluid" src="img/img-600x400-2.jpg" alt=""/> */}
-                <img className="img-fluid" src={ct_scan}    alt="" style={{width:"100%"}} />
-                <div className="position-relative p-4 pt-0">
-                    <div className="service-icon">
+                <img className="img-fluid" src={ct_scan}    alt="" />
+                <div className="position-absolute bottom-0 start-0 p-4 pt-0 w-100">
+                    <div className="service-icon text-center">
                         <i className="fa fa-medkit fa-3x"></i>
                     </div>
                     <h4 className="mb-3">CT SCAN</h4>
@@ -74,10 +74,10 @@ const Meditech = () => {
             </div>
         </div>
         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
-            <div className="service-item rounded overflow-hidden">
-                <img className="img-fluid" src={icu_bed}    alt="" style={{width:"100%"}} />
-                <div className="position-relative p-4 pt-0">
-                    <div className="service-icon">
+            <div className="service-item rounded overflow-hidden" style={{ height: '100%', position: 'relative' }}>
+                <img className="img-fluid" src={icu_bed}    alt=""  />
+                <div className="position-absolute bottom-0 start-0 p-4 pt-0 w-100">
+                    <div className="service-icon text-center">
                         <i className="fa fa-bed fa-3x"></i>
                     </div>
                     <h4 className="mb-3">ICU BED</h4>
@@ -114,23 +114,23 @@ const Meditech = () => {
                 </div>
             </div>
         </div>
-        <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                            <div className="service-item rounded overflow-hidden">
-                                <img className="img-fluid" src={hospital_ward} alt="" style={{ width: "100%" }} />
-                                <div className="position-relative p-4 pt-0">
-                                    <div className="service-icon">
-                                        <i className="fa fa-bed fa-3x"></i>
+                           <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
+                                <div className="service-item rounded overflow-hidden" style={{ height: '100%', position: 'relative' }}>
+                                    <img className="img-fluid" src={hospital_ward} alt="" />
+                                    <div className="position-absolute bottom-0 start-0 p-4 pt-0 w-100">
+                                        <div className="service-icon text-center">
+                                            <i className="fa fa-bed fa-3x"></i>
+                                        </div>
+                                        <h4 className="mb-3 text-center">Hospital Ward</h4>
+                                        <p className="text-center">Add Equipment details for Hospital Ward Bed</p>
                                     </div>
-                                    <h4 className="mb-3">Hospital Ward</h4>
-                                    <p>Add Equipment details for Hospital Ward Bed</p>
                                 </div>
-                            </div>
-                        </div>
+                           </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.9s">
-                            <div className="service-item rounded overflow-hidden">
-                                <img className="img-fluid" src={ot_light_double_dom} alt="" style={{ width: "100%" }} />
-                                <div className="position-relative p-4 pt-0">
-                                    <div className="service-icon">
+                            <div className="service-item rounded overflow-hidden" style={{ height: '100%', position: 'relative' }}>
+                                <img className="img-fluid" src={ot_light_double_dom} alt=""/>
+                                <div className="position-absolute bottom-0 start-0 p-4 pt-0 w-100">
+                                    <div className="service-icon text-center">
                                         <i className="fa fa-lightbulb fa-3x"></i>
                                     </div>
                                     <h4 className="mb-3">OT Light Double Dome</h4>
@@ -175,17 +175,17 @@ const Meditech = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="1.1s">
-                            <div className="service-item rounded overflow-hidden">
-                                <img className="img-fluid" src={sonography} alt="" style={{ width: "100%" }} />
-                                <div className="position-relative p-4 pt-0">
-                                    <div className="service-icon">
-                                        <i className="fa fa-medkit fa-3x"></i>
+                                <div className="service-item rounded overflow-hidden" style={{ height: '100%', position: 'relative' }}>
+                                    <img className="img-fluid" src={sonography} alt="" />
+                                    <div className="position-absolute bottom-0 start-0 p-4 pt-0 w-100">
+                                        <div className="service-icon text-center">
+                                            <i className="fa fa-medkit fa-3x"></i>
+                                        </div>
+                                        <h4 className="mb-3 text-center">Sonography Machine</h4>
+                                        <p className="text-center">Add Equipment details for Sonography Machine</p>
                                     </div>
-                                    <h4 className="mb-3">Sonography Machine</h4>
-                                    <p>Add Equipment details for Sonography Machine</p>
                                 </div>
                             </div>
-                        </div>
                         <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                             <div className="service-item rounded overflow-hidden">
                                 <img className="img-fluid" src={trolly} alt="" style={{ width: "100%" }} />

@@ -52,7 +52,7 @@ export default function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <NavLink to="/meditech" className="nav-item nav-link" activeClassName="active-link">Meditech</NavLink>
+            {/* <NavLink to="/meditech" className="nav-item nav-link" activeClassName="active-link">Meditech</NavLink> */}
             <NavLink to="/solarproject" className="nav-item nav-link" activeClassName="active-link">Home</NavLink>
             <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
             <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Services</NavLink>
@@ -73,8 +73,8 @@ export default function Navbar() {
                 </div>  */}
              
             </div>
-            {/* <a href="https://www.adanisolar.com/Solar-Calculator" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Solar Calculator<i
-                    className="fa fa-arrow-right ms-3"></i></a> */}
+            <NavLink to="/meditech" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Meditech Products<i
+                    className="fa fa-arrow-right ms-3"></i></NavLink>
         </div>
     </nav>
     </div>
