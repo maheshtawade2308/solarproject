@@ -51,14 +51,14 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
-            <div className="navbar-nav ms-auto p-4 p-lg-0">
-            {/* <NavLink to="/meditech" className="nav-item nav-link" activeClassName="active-link">Meditech</NavLink> */}
-            <NavLink to="/solarproject" className="nav-item nav-link" activeClassName="active-link">Home</NavLink>
-            <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
-            <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Services</NavLink>
-            <NavLink to="/project" className="nav-item nav-link" activeClassName="active-link">Project</NavLink>
-            <NavLink to="/career" className="nav-item nav-link" activeClassName="active-link">Career</NavLink>
-            <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact US</NavLink>
+            <ul className="navbar-nav ms-auto p-4 p-lg-0 ">
+                {/* <NavLink to="/meditech" className="nav-item nav-link" activeClassName="active-link">Meditech</NavLink> */}
+                <NavLink to="/solarproject" className="nav-item nav-link" activeClassName="active-link">Home</NavLink>
+                <NavLink to="/about" className="nav-item nav-link" activeClassName="active-link">About</NavLink>
+                <NavLink to="/service" className="nav-item nav-link" activeClassName="active-link">Services</NavLink>
+                <NavLink to="/project" className="nav-item nav-link" activeClassName="active-link">Project</NavLink>
+                <NavLink to="/career" className="nav-item nav-link" activeClassName="active-link">Career</NavLink>
+                <NavLink to="/contact" className="nav-item nav-link" activeClassName="active-link">Contact US</NavLink>
                 {/* <Link to="/feature" className="nav-item nav-link">Features</Link>  */}
 
                {/* <div className="nav-item dropdown">
@@ -72,8 +72,8 @@ export default function Navbar() {
                     </div>
                 </div>  */}
              
-            </div>
-            <NavLink to="/meditech" className="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Meditech Products<i
+            </ul>
+            <NavLink to="/meditech" className="btn btn-primary rounded-0 py-4 px-lg-5 d-lg-block">Meditech Products<i
                     className="fa fa-arrow-right ms-3"></i></NavLink>
         </div>
     </nav>
