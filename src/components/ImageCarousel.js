@@ -8,6 +8,7 @@ import Image3 from "./assets/certificate.jpeg";
 
 const ImageCarousel = () => {
 
+  
   const carouselSettings = {
     autoPlay: true, // Enable auto-play
     infiniteLoop: true,
