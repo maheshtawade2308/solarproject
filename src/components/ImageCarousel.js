@@ -5,6 +5,7 @@ import Image1 from "./assets/archanadip1.jpg";
 import Image2 from "./assets/archanadip2.jpg";
 import Image3 from "./assets/certificate.jpeg";
 
+
 const ImageCarousel = () => {
 
   const carouselSettings = {
@@ -13,7 +14,7 @@ const ImageCarousel = () => {
     showThumbs: false,
     transitionEffect: "fade",
     stopOnHover: true, // Set to false to allow one-direction sliding
-    interval: 3000, // Set the sliding time to 3 seconds (3000 milliseconds)
+    interval: 2000, // Set the sliding time to 3 seconds (3000 milliseconds)
   };
   
   return (
@@ -27,6 +28,7 @@ const ImageCarousel = () => {
       <div>
         <img className='w-75 h-25 d-inline-block' src={Image3} alt="Image 2" />
       </div>
+     
     </Carousel>
   );
 };
