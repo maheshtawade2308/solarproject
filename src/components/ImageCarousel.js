@@ -8,7 +8,6 @@ import Image3 from "./assets/certificate.jpeg";
 
 const ImageCarousel = () => {
 
-  
   const carouselSettings = {
     autoPlay: true, // Enable auto-play
     infiniteLoop: true,
@@ -21,13 +20,13 @@ const ImageCarousel = () => {
   return (
     <Carousel {...carouselSettings} >
       <div >
-        <img className='w-75 h-25 d-inline-block' src={Image1} alt="Image 1" />
+        <img className='w-70 h-20 d-inline-block' src={Image1} alt="Image 1" />
       </div>
       <div>
-        <img className='w-75 h-25 d-inline-block' src={Image2} alt="Image 2" />
+        <img className='w-70 h-20 d-inline-block' src={Image2} alt="Image 2" />
       </div>
       <div>
-        <img className='w-75 h-25 d-inline-block' src={Image3} alt="Image 2" />
+        <img className='w-85 h-35 d-inline-block' src={Image3} alt="Image 2" />
       </div>
      
     </Carousel>

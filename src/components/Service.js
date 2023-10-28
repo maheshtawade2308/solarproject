@@ -23,7 +23,7 @@ const Service = () => {
                             <i className="fa fa-solar-panel fa-3x"></i>
                         </div>
                         <h4 className="mb-3">Solar Panels</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <p>Our high-quality solar panels are designed to capture maximum sunlight and convert it into clean energy. With cutting-edge technology, we ensure the highest efficiency and reliability for your energy needs.</p>
                         <button className="small fw-medium">Read More<i className="fa fa-arrow-right ms-2"></i></button>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Service = () => {
                             <i className="fa fa-solar-panel fa-3x"></i>
                         </div>
                         <h4 className="mb-3">Solar Panels</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <p>Experience the power of renewable energy with our state-of-the-art solar panel solutions. We are committed to sustainability and provide eco-friendly energy solutions that benefit both your wallet and the environment.</p>
                         <button className="small fw-medium">Read More<i className="fa fa-arrow-right ms-2"></i></button>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ const Service = () => {
                             <i className="fa fa-solar-panel fa-3x"></i>
                         </div>
                         <h4 className="mb-3">Solar Panel</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
+                        <p> Our commitment to innovation and environmental responsibility means you get the most out of the sun's energy, reducing your carbon footprint while saving on energy costs.</p>
                         <button className="small fw-medium">Read More<i className="fa fa-arrow-right ms-2"></i></button>
                     </div>
                 </div>
